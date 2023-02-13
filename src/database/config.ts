@@ -7,4 +7,5 @@ export const client = new Client({
   host: process.env.DB_HOST,
   database:process.env.DB,
   port:parseInt(process.env.DB_PORT!)
+  
 });
